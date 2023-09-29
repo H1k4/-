@@ -1,31 +1,27 @@
-div img {
-  width: 400px;
-  height: 500px;
-}
-div {
-  width: 400px;
-  display: inline-block;
-}
 
-.kartinka {
-  border-radius: 50%;
-}
-
-.block-1 {
-  background-color: rgb(136, 98, 72);
-}
 .block {
-  padding: 20px 30px 20px 30px;
-  border-radius: 10%;
-  width: 500px;
+width:100%;
+height:400px ;
+background-color: rgb(134, 231, 231);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: start;
+gap: 50px;
+flex-wrap: wrap;
 }
-.block img {
-  width: 100%;
+.block:hover {
+  background-color: cadetblue;
 }
-#block-id {
-  background-color: rgb(183, 168, 168);
+.block:active {
+  border: 2px solid rgb(63, 0, 66) ;
 }
-.block p {
-  width: 100%;
-  color: rgb(206, 200, 199);
+.block a {
+ color: aliceblue; 
+ text-decoration: none;
+ font-size:20px ;
 }
+.block a:hover {
+text-decoration: underline;
+} 
+
