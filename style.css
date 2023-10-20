@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding:0;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 html,
 body {
   width: 100%;
@@ -28,6 +31,55 @@ nav h3 {
 nav h3:hover {
   border-bottom: 1px solid rgb(0, 0, 0) ;
 }
-header-logo {
+.header-logo {
   height: 100%;
+}
+.main {
+  position: relative;
+}
+.label {
+  position: sticky;
+  top: 20px;
+  right: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding-right: 40px;
+  cursor: pointer;
+  background-color: blue;
+}
+.label img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.hidden-block {
+  /*display: none;*/
+  background-color: aquamarine;
+  width: 200px;
+  height: 400px;
+  transition: 1s;
+  opacity: 0;
+  transform: scale(1) rotate(1);
+}
+.hidden-block img {
+  /*display: none;*/
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+  opacity: 0;
+  transform: scale(1) rotate(1);
+}
+#check {
+  display: none;
+}
+#check:checked ~ .hidden-block {
+ /*display: block*/
+ opacity:100%;
+ transform: rotate('360deg');
+}
+footer {
+height: 1000px;
+background-color: blueviolet;
 }
