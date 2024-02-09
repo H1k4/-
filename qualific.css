@@ -1,0 +1,11 @@
+.qualific-list {
+    display: flex;
+    border-color: white;
+    border-radius: 25%;
+}
+.button {
+    background-color: blanchedalmond;
+    border-radius: 15%;
+    width: 100px;
+    height: 35px;
+}
