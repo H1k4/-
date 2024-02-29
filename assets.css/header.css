@@ -1,15 +1,16 @@
 .header {
     display: flex;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.281);
     justify-content: space-between;
     padding: 10px 30px;
+    border:5px solid white;
+    height: 100px;
+    width: 100%;
 }
 .header-navigation {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    background-color: aqua;
     padding: 10px 0;
 }
 .header-menu-nav {
@@ -19,8 +20,17 @@
     gap: 10px;
 }
 .header-menu-item {
-    width: 60px;
-    height: 16px;
-    background-color: black;
-    gap: 10px;
+   border-bottom: 2px solid rgba(255, 255, 255, 0);
+   cursor: pointer;
+   transition: 0.2s;
+   margin-bottom: -5px;
+   margin:100px;
+}
+.header-menu-item:hover {
+    border-bottom: 2px solid white ;
+}
+.image-logo {
+    width: 90px;
+    height:90px;
+    border-radius:25%;
 }
