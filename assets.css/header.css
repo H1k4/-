@@ -24,7 +24,7 @@
    cursor: pointer;
    transition: 0.2s;
    margin-bottom: -5px;
-   margin:100px;
+   margin:150px;
 }
 .header-menu-item:hover {
     border-bottom: 2px solid white ;
@@ -32,5 +32,5 @@
 .image-logo {
     width: 90px;
     height:90px;
-    border-radius:25%;
+    border-radius:50%;
 }
