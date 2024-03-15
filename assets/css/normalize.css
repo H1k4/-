@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navigation-link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.navigation-link :hover {
+    border-bottom: 2px solid white;
+}
+.navigation-btn {
+    background: none;
+    border:none;
+    outline: none;
+}
+.navigation-link,
+.navigation-btn {
+    color: white;
+}

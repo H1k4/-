@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Бункер</title>
     <link rel="stylesheet" href="./assets.css/style.css" />
     <script defer src="./index.js"></script>
   </head>
-  <body class="body">
-    <header class="header">
-      <div class="header-navigation">
-        <nav class="header-menu-nav">
-          <img src="./images/white-logo.png" alt="" class="image-logo" />
-          <h1 class="header-menu-item">ABOUT</h1>
-          <h1 class="header-menu-item">SERVICES</h1>
-          <h1 class="header-menu-item">NEWS</h1>
-        </nav>
-      </div>
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul class="list">
+          <a class="navigation-link href=" " >Правила</a>
+          <button id="character" class="navigation-btn">Создать персонажа</button>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <h1>Таймер</h1>
-      <div class="timer">
-        <h2 id="hours">00</h2>
-        <h2>:</h2>
-        <h2 id="minutes">00</h2>
-        <h2>:</h2>
-        <h2 id="seconds">00</h2>
-      </div>
-
-      <input class="input-time" type="text" placeholder="Hours" value="1" />
-      <input class="input-time" type="text" placeholder="Minutes" value="0" />
-      <input class="input-time" type="text" placeholder="Seconds" value="0" />
+    <main class="main">
+      <h1 id="tittle">Бункер</h1>
     </main>
+    <div class="audio-block">
+      <input type="" />
+      <button>Вкл/Выкл</button>
+    </div>
   </body>
 </html>
