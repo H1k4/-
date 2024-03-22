@@ -1,0 +1,7 @@
+.person {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    gap: 5px;
+    transition: 0.5s;
+}

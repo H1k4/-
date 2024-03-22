@@ -1,5 +1,8 @@
-.body {
-    background-image: url("../assets/images/1610511543_18-p-fon-bunker-32.jpg");
-    background-repeat: no-repeat;
+body {
+    background-image: url(../images/33.jpg);
     background-size: cover;
+}
+.main-title {
+    display: flex;
+    transition: 0.5s;
 }

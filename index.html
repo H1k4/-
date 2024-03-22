@@ -4,23 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Бункер</title>
-    <link rel="stylesheet" href="./assets.css/style.css" />
-    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/index.js"></script>
   </head>
-  <body>
-    <header>
+  <body class="body">
+    <header class="header">
       <nav class="navigation">
-        <ul class="list">
-          <a class="navigation-link href=" " >Правила</a>
-          <button id="character" class="navigation-btn">Создать персонажа</button>
-        </ul>
+          <a class="navigation-link" href="">Правила</a>
+          <button id="create" class="navigation-btn">Создать персонажа</button>
       </nav>
     </header>
     <main class="main">
-      <h1 id="tittle">Бункер</h1>
+      <div class="title-block">
+        <h1 class="main-title">Бункер</h1>
+        <section class="person">
+          <ol>
+            <li class="person-item">Имя:</li>
+            <li class="person-item">Возраст:</li>
+            <li class="person-item">Профессия:</li>
+            <li class="person-item">Стаж работы:</li>
+            <li class="person-item">Здоровье:</li>
+            <li class="person-item">Плодовитость:</li>
+            <li class="person-item">Страхи:</li>
+            <li class="person-item">Хобби:</li>
+          </ol>
+        </section>
+      </div>
     </main>
     <div class="audio-block">
-      <input type="" />
+      <input type="range" />
       <button>Вкл/Выкл</button>
     </div>
   </body>
