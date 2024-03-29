@@ -7,13 +7,4 @@
     height: 75px;
     width: 100%;
 }
-.navigation-link {
-   border:1px solid rgba(255, 255, 255, 0);
-   transition: 0.5s;
-   cursor: pointer;
-   margin-bottom: -5px;
-   color: white;
-}
-.navigation-link:hover {
-    border:1px solid white;
-}
+

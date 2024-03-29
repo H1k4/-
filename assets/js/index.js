@@ -12,9 +12,6 @@ button.addEventListener("click",()=>{
         person.style.opacity = 100
         person.style.display =  'flex'; 
  }, 1000 );
-    // if (title.style.display = 'none'){
-    //     person.style.display =  'flex';
-    // } else {
-    //     person.style.display = 'none';
-    // }
+        
+    
 })

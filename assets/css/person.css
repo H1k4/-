@@ -4,4 +4,7 @@
     list-style: none;
     gap: 5px;
     transition: 0.5s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.904);
+    width: 120px;
 }
