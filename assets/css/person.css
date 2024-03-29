@@ -2,6 +2,7 @@
     display: none;
     flex-direction: column;
     list-style: none;
+    opacity: 0;
     gap: 5px;
     transition: 0.5s;
     color: white;
