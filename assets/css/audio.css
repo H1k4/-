@@ -1,0 +1,17 @@
+.range {
+    cursor: pointer;
+    appearance: none;
+    background: none;
+}
+.range::-webkit-slider-runnable-track {
+ background-color: antiquewhite;
+ height: 20px;
+ border-radius: 10px;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: black;
+}
