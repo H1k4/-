@@ -4,7 +4,7 @@ let title = document.querySelector(".main-title");
 let person = document.querySelector(".person");
 let button = document.getElementById("create");
 function random(min,max) {
-    return Math.floor(Math.random() * (max - min) + min);   
+    return Math.floor(Math.random() * (max - min+1) + min);   
 }
 
 console.log(title,person,button);
@@ -14,10 +14,15 @@ button.addEventListener("click",()=>{
     title.style.opacity = 0;
     console.log(random);
     personItemMass[0].innerText ="Имя:" + NAME_MASS[random(0,NAME_MASS.length)];
-    personItemMass[1].innerText ="Возраст:" + AGE_MASS[random(0,AGE_MASS.length)];
+    personItemMass[1].innerText ="Возраст:" + random(10,80);
     personItemMass[2].innerText ="Профессия:" + JOB_MASS[random(0,JOB_MASS.length)];
-    personItemMass[3].innerText ="Стаж работы:" + JOB_MASS[random(0,JOB_MASS.length)];
-    personItemMass[4].innerText ="Здоровье:" + JOB_MASS[random(0,JOB_MASS.length)];
+    personItemMass[3].innerText ="Стаж работы:" + random(1,20);
+    if (random(0,1) == 1) {
+    personItemMass[4].innerText ="Здоровье: отличное";
+    } else {
+    personItemMass[4].innerText =  
+    "Заболевания:" + diseas[random(0,diseas.length)];
+    }
     personItemMass[5].innerText ="Плодовитость:" + JOB_MASS[random(0,JOB_MASS.length)];
     personItemMass[6].innerText ="Страхи:" + JOB_MASS[random(0,JOB_MASS.length)];
     personItemMass[7].innerText ="Хобби:" + JOB_MASS[random(0,JOB_MASS.length)];
