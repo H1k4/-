@@ -6,7 +6,7 @@
     gap: 5px;
     transition: 0.5s;
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgb(255, 0, 0);
     width: 120px;
 }
 .person-item {
