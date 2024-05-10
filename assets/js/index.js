@@ -23,8 +23,8 @@ button.addEventListener("click",()=>{
     personItemMass[3].innerText ="Стаж работы:" + random(1,20);
     personItemMass[4].innerText ="Здоровье: отличное";
     personItemMass[5].innerText ="Плодовитость:" + JOB_MASS[random(0,JOB_MASS.length)];
-    personItemMass[6].innerText ="Страхи:" + FOBIA_MASS_MASS[random(0,FOBIA_MASS_MASS.length)];
-    personItemMass[7].innerText ="Хобби:" + HOBBY_MASS_MASS[random(0,HOBBY_MASS_MASS.length)];
+    personItemMass[6].innerText ="Страхи:" + FOBIA_MASS[random(0,FOBIA_MASS.length)];
+    personItemMass[7].innerText ="Хобби:" + HOBBY_MASS[random(0,HOBBY_MASS.length)];
     setTimeout(()=> {
         title.style.display = 'none';
         person.style.display =  'flex'; 
@@ -33,3 +33,4 @@ button.addEventListener("click",()=>{
     }, 1000)  
  }, 1000);   
 })
+

@@ -19,5 +19,6 @@ const HOBBY_MASS = [
     "Акробатика",
     "Гимнастика",
     "Фехтование",
+    
 ];
 export{HOBBY_MASS};

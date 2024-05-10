@@ -6,8 +6,8 @@
     gap: 5px;
     transition: 0.5s;
     color: white;
-    background-color: rgb(255, 0, 0);
-    width: 120px;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 420px;
 }
 .person-item {
     font-size: 36px;
