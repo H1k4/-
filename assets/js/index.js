@@ -1,6 +1,8 @@
 // import {NAME_MASS, JOB_MASS} from "../massive/module.js";
 import { NAME_MASS } from "../massive/module-name.js";
 import { JOB_MASS } from "../massive/module-job.js";
+import { FOBIA_MASS } from "../massive/module-fobia.js";
+import { HOBBY_MASS } from "../massive/module-hobby.js";
 let personItemMass = document.querySelectorAll(".person-item");
 let title = document.querySelector(".main-title");
 let person = document.querySelector(".person");
@@ -21,8 +23,8 @@ button.addEventListener("click",()=>{
     personItemMass[3].innerText ="Стаж работы:" + random(1,20);
     personItemMass[4].innerText ="Здоровье: отличное";
     personItemMass[5].innerText ="Плодовитость:" + JOB_MASS[random(0,JOB_MASS.length)];
-    personItemMass[6].innerText ="Страхи:" + JOB_MASS[random(0,JOB_MASS.length)];
-    personItemMass[7].innerText ="Хобби:" + JOB_MASS[random(0,JOB_MASS.length)];
+    personItemMass[6].innerText ="Страхи:" + FOBIA_MASS_MASS[random(0,FOBIA_MASS_MASS.length)];
+    personItemMass[7].innerText ="Хобби:" + HOBBY_MASS_MASS[random(0,HOBBY_MASS_MASS.length)];
     setTimeout(()=> {
         title.style.display = 'none';
         person.style.display =  'flex'; 

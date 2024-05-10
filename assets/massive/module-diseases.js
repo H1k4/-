@@ -1,0 +1,3 @@
+const DISEASES_MASS = [
+    
+]
