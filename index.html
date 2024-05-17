@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Бункер</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <script defer type="module" src="./assets/js/index.js"></script>
-    <script defer type="module" src="./assets/js/audio.js"></script>
-  </head>
-  <body class="body">
-    <header class="header">
-      <nav class="navigation">
-        <a class="navigation-link" href="">Правила</a>
-        <button id="create" class="navigation-btn">Создать персонажа</button>
-      </nav>
-      <div class="audio-block">
-        <input class="range" type="range" />
-        <button class="music">
-         Вкл/Выкл
-        </button>
-        <audio id="audio" src="../assets/audio/667.mp3"></audio>
-      </div>
-    </header>
-    <main class="main">
-      <div class="title-block">
-        <h1 class="main-title">Бункер</h1>
-        <section class="person">
-          <ol>
-            <li class="person-item">Имя:</li>
-            <li class="person-item">Возраст:</li>
-            <li class="person-item">Профессия:</li>
-            <li class="person-item">Стаж работы:</li>
-            <li class="person-item">Здоровье:</li>  
-            <li class="person-item">Плодовитость:</li>
-            <li class="person-item">Страхи:</li>
-            <li class="person-item">Хобби:</li>
-          </ol>
-        </section>
-      </div>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бункер</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script defer type="module" src="./assets/js/index.js"></script>
+  <script defer type="module" src="./assets/js/audio.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body class="body">
+  <header class="header">
+    <nav class="navigation">
+      <a class="navigation-link" href="">Правила</a>
+      <button id="create" class="navigation-btn">Создать персонажа</button>
+    </nav>
+    <div class="audio-block">
+      <input class="range" type="range" />
+      <button class="music">
+        Вкл/Выкл
+      </button>
+      <audio id="audio" src="./assets/audio/667.mp3"></audio>
+    </div>
+  </header>
+  <main class="main">
+    <div class="title-block">
+      <h1 class="main-title">Бункер</h1>
+      <section class="person">
+        <ol>
+          <li class="person-item">Имя:</li>
+          <li class="person-item">Возраст:</li>
+          <li class="person-item">Профессия:</li>
+          <li class="person-item">Стаж работы:</li>
+          <li class="person-item">Здоровье:</li>
+          <li class="person-item">Плодовитость:</li>
+          <li class="person-item">Страхи:</li>
+          <li class="person-item">Хобби:</li>
+        </ol>
+      </section>
+    </div>
+  </main>
+</body>
+
 </html>
